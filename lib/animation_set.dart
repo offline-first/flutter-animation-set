@@ -107,7 +107,7 @@ class AnimatedLogo extends StatelessWidget {
   Animation<double>? width;
   Animation<double>? height;
   Animation<EdgeInsets>? padding;
-  Animation<BorderRadius>? borderRadius;
+  Animation<BorderRadius?>? borderRadius;
   Animation<Color?>? color;
   List<Animation<double>?> scaleX = [null, null, null, null];
   List<Animation<double>?> scaleY = [null, null, null, null];
